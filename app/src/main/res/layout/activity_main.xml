@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/homebg">
+
+            <ImageView
+                android:layout_width="124dp"
+                android:layout_height="133dp"
+                android:layout_margin="20dp"
+                android:layout_gravity="right"
+                android:src="@drawable/logo" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:orientation="vertical">
+
+            <TextView
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|end"
+                android:gravity="center"
+                android:text="Best Furniture in your home!"
+                android:textSize="36sp"
+                android:layout_margin="10dp"
+                android:textColor="@color/primary"
+                android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical|end"
+                    android:layout_margin="7dp"
+                    android:textSize="20sp"
+                    android:text="The best place where you discover most wonderful furniture and make your home beautiful!!"/>
+
+            </LinearLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:text="GET STARTED -->"
+                android:id="@+id/btnstart"
+                android:layout_marginBottom="50dp"
+                android:layout_marginRight="20dp"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

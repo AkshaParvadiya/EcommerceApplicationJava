@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "202491916342",
+    "project_id": "furniture-7fdcc",
+    "storage_bucket": "furniture-7fdcc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202491916342:android:57adb5f214d1887ca16897",
+        "android_client_info": {
+          "package_name": "com.example.aksha_parvadiya_project2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA23mOWf0jZX5Ec7FcKMNwCtZ8R_I_v_qQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:202491916342:android:dd32b7495b75a581a16897",
+        "android_client_info": {
+          "package_name": "info.photo.all.in.one.frame.art"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA23mOWf0jZX5Ec7FcKMNwCtZ8R_I_v_qQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
